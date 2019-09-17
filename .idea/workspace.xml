@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1818538-3215-498f-897c-d37f1c68629f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/browserstack/PageObject/FlightsFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/browserstack/Tests/TestFlightsFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/browserstack/TestSuites/JunitTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,25 +18,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/browserstack/PageObject/FlightsFinder.java">
+        <entry file="file://$PROJECT_DIR$/src/com/browserstack/TestSuites/JunitTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="238">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/browserstack/Tests/TestFlightsFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,6 +54,7 @@
         <option value="$PROJECT_DIR$/src/com/browserstack/PageObject/FlightFinder.java" />
         <option value="$PROJECT_DIR$/src/com/browserstack/PageObject/FlightsFinder.java" />
         <option value="$PROJECT_DIR$/src/com/browserstack/Tests/TestFlightsFinder.java" />
+        <option value="$PROJECT_DIR$/src/com/browserstack/TestSuites/Suites.java" />
       </list>
     </option>
   </component>
@@ -78,10 +64,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="582" />
-    <option name="width" value="981" />
-    <option name="height" value="1031" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="141" />
+    <option name="y" value="3" />
+    <option name="width" value="1781" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -121,6 +108,13 @@
               <item name="browserstack" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyAutomationProject1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyAutomationProject1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="browserstack" type="462c0819:PsiDirectoryNode" />
+              <item name="TestSuites" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -152,12 +146,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestFlightsFinder">
+  <component name="RunManager" selected="JUnit.SuiteRunner">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.browserstack.Tests.TestLogin" />
       <module name="MyAutomationProject1" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuiteRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyAutomationProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.browserstack.TestSuites.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.browserstack.TestSuites" />
+      <option name="MAIN_CLASS_NAME" value="com.browserstack.TestSuites.SuiteRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,9 +207,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.TestFlightsFinder" />
       <item itemvalue="JUnit.TestLogin" />
+      <item itemvalue="JUnit.SuiteRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SuiteRunner" />
         <item itemvalue="JUnit.TestLogin" />
         <item itemvalue="Application.Main" />
       </list>
@@ -220,12 +231,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFlightFinder - 2019.09.16 at 08h 44m 12s.xml">
-      <configuration name="TestFlightFinder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFlightFinder - 2019.09.16 at 08h 45m 23s.xml">
-      <configuration name="TestFlightFinder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestFlightFinder - 2019.09.16 at 08h 49m 46s.xml">
       <configuration name="TestFlightFinder" configurationId="JUnit" />
     </history-entry>
@@ -250,11 +255,18 @@
     <history-entry file="TestFlightsFinder - 2019.09.16 at 09h 02m 59s.xml">
       <configuration name="TestFlightsFinder" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestFlightsFinder - 2019.09.17 at 13h 35m 33s.xml">
+      <configuration name="TestFlightsFinder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLogin - 2019.09.17 at 13h 36m 01s.xml">
+      <configuration name="TestLogin" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="94" y="2" width="1187" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17480035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -263,7 +275,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3327338" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -480,6 +492,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/browserstack/TestSuites/JunitTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
